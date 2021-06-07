@@ -53,7 +53,7 @@ var myObject = {
 myObject.func();
 
 
-// The code below will output  the outer func as Lovelace because the this keyword when used inside a function tends to point at the global object while the  other result for the inner func  the first output for this .name will bring undefined since it is an immediately invoked functions  
+// The code below will output  the outer func as Lovelace because the this keyword when used inside a function tends to point at the global object while the  other result for the inner func  the first output for this .name will bring undefined since it is an immediately invoked functions can not access it is restricted in the scope hence cannot access the global scope  
 //self.name=Lovelace because the this keyword was used inside a method hence it tended to point at the object hence bringing the output 
 
 
